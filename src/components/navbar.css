@@ -1,0 +1,48 @@
+.navbar_color{
+    background: rgba(93, 63, 211, 1);
+    /*height: 60px;*/
+    /*width: 1920px;*/
+    left: 0;
+    top: 0;
+    border-radius: 0;
+    display: flex;
+
+}
+.navbar_brand{
+ font-size: larger;
+}
+
+.tags_styles{
+    /* Defi */
+    /*position: absolute;*/
+    /*width: 100px;*/
+    height: 38px;
+    /*left: 968px;*/
+    top: 11px;
+
+    /*font-family: 'Roboto Flex';*/
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    /*color: #FFFFFF;*/
+
+}
+.button{
+    /* WAllet Connect */
+
+
+    /*position: absolute;*/
+    width: 147px;
+    height: 35px;
+    /*left: 1444px;*/
+    top: 14px;
+
+    /*background: #D9D9D9;*/
+    border-radius: 15px;
+    background-color: aliceblue;
+}
