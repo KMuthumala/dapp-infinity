@@ -16,8 +16,8 @@ function App() {
                             Dapps</h1>
 
                     </div>
-                    {/*<div className="grid_section">*/}
-                    {/*    <GridSystem/>*/}
+                    <div className="grid_section">
+                        <GridSystem/>
                     {/*    /!*<GridSystem/>*!/*/}
                     {/*    /!*<GridSystem/>*!/*/}
                     {/*    /!*<GridSystem/>*!/*/}
@@ -25,7 +25,7 @@ function App() {
                     {/*    /!*<GridSystem/>*!/*/}
 
 
-                    {/*</div>*/}
+                    </div>
 
                 </div>
 

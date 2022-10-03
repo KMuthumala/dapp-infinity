@@ -21,7 +21,7 @@
     /*height: 300px;*/
     /*left: 33.33%;*/
 
-    top: 95px;
+    padding-top: 95px;
 
     /*font-family: -apple-system;*/
     font-style: normal;
@@ -45,7 +45,7 @@
 
 
 .grid_section {
-    top: 120px;
+    padding-top: 30px;
     position: relative;
 
 
