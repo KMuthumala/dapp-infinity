@@ -8,20 +8,20 @@ function NavBarComponent() {
     const navbarTags=[
         {tag:"Defi",to:"#defi"},
         {tag:"NFTs",to:"#nfts"},
-        {tag:"Blog",to:"#blog"},
         {tag:"AirDrops",to:"#airdrops"},
+        {tag:"Blog",to:"#blog"},
     ];
 
     return (
-        <Navbar collapseOnSelect expand="lg"  variant="dark" className="navbar_color">
+        <Navbar fixed="top" collapseOnSelect expand="lg"  variant="dark" className="navbar_color">
             <Container className="navbar_brand">
-                <Navbar.Brand  href="#home">Dapp Infinity</Navbar.Brand>
+                <Navbar.Brand  href="/home">Dapp Infinity</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav className="me-auto">
                     </Nav>
-                    <Nav className="me-5" >
-                        {navbarTags.map((e)=>(<Nav.Link key={e.tag} className="me-4 tags_styles" href={e.to}>{e.tag}</Nav.Link> ))}
+                    <Nav className="ms-5 tags_styles" >
+                        {navbarTags.map((e)=>(<Nav.Link key={e.tag} className="me-4" href={e.to}>{e.tag}</Nav.Link> ))}
                     </Nav>
                     <Button className="button-secondary">Connect Wallet</Button>
                 </Navbar.Collapse>

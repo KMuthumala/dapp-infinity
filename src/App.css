@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+
+.background_image01 {
+    background-image: url('./images/backgroundImage_01.jpeg');
+    background-position: top;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    height:100%;
+    width: 100%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*  .background_image02{*/
+/*        background-image:url('./images/backgroundImage_02.jpeg')  ;*/
+/*        background-size: cover;*/
+/*        background-repeat: no-repeat;*/
+/*        height: 100vh;*/
+/*}*/
+.main_heading_section {
+    position: relative;
+    /*width: auto;*/
+    /*height: 300px;*/
+    /*left: 33.33%;*/
+
+    top: 95px;
+
+    /*font-family: -apple-system;*/
+    font-style: normal;
+    font-weight: 600;
+
+
+    line-height: 80px;
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+    color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main_heading_section h1 {
+    font-size: 60px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.grid_section {
+    top: 120px;
+    position: relative;
+
+
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

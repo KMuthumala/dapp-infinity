@@ -5,11 +5,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ServiceContainer } from 'react-service-locator';
+import SingleCard from "./components/card";
+import GridSystem from "./components/gridSystem";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 
 ReactDOM.render(
   <ServiceContainer>
+      {/*<ContentBoxComponent/>*/}
       <App/>
+      {/*<GridSystem/>*/}
   </ServiceContainer>
 
   , document.getElementById('root'));

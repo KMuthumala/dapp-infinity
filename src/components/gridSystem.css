@@ -1,0 +1,8 @@
+
+.columns{
+    justify-content:center;
+    /*align-items: center;*/
+    display : flex;
+    padding: 10px 50px;
+
+}
