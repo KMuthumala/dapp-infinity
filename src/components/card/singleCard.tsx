@@ -1,10 +1,10 @@
 import Card from 'react-bootstrap/Card';
-import "./card.css";
+import "./singleCard.css";
 
 function SingleCard() {
     return (
         <div>
-           <Card border="dark"  className="card">
+           <Card border="dark"   className="single_card">
                 <Card.Body>
                     <Card.Title>Light Card Title</Card.Title>
                     <Card.Text>
@@ -13,11 +13,7 @@ function SingleCard() {
                     </Card.Text>
                 </Card.Body>
             </Card>
-
-
-
         </div>
     );
 }
-
 export default SingleCard;

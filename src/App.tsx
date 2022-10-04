@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import NavBarComponent from "./components/navbar";
-import GridSystem from "./components/gridSystem";
+import NavBarComponent from "./components/navBar/navbar";
+import CardGrid from "./components/cardGrid/cardGrid";
 
 function App() {
-    return (
-        <div>
+    return (<React.Fragment>
             <div>
                 <NavBarComponent/>
             </div>
@@ -14,25 +13,12 @@ function App() {
                     <div className="main_heading_section">
                         <h1>Explore & Enjoy <br/>
                             Dapps</h1>
-
                     </div>
                     <div className="grid_section">
-                        <GridSystem/>
-                    {/*    /!*<GridSystem/>*!/*/}
-                    {/*    /!*<GridSystem/>*!/*/}
-                    {/*    /!*<GridSystem/>*!/*/}
-                    {/*    /!*<GridSystem/>*!/*/}
-                    {/*    /!*<GridSystem/>*!/*/}
-
-
+                        <CardGrid/>
                     </div>
-
                 </div>
-
-
             </div>
-        </div>
-    );
+        </React.Fragment>);
 }
-
 export default App;
