@@ -8,7 +8,6 @@ import {ServiceContainer} from 'react-service-locator';
 import {BrowserRouter} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
 ReactDOM.render(
     <ServiceContainer>
         <BrowserRouter>
