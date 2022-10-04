@@ -1,4 +1,4 @@
-import CardGrid from "../components/cardGrid/cardGrid";
+import CardGrid from "../components/card-grid/cardGrid";
 
 function Home() {
     return (
