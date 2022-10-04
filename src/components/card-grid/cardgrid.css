@@ -6,7 +6,7 @@
 .grid_rows{
     width :100%;
 }
-.grid_section .container{
+.grid_columns .container{
     padding-left: 0;
     padding-right: 0;
 }

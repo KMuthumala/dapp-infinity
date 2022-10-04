@@ -3,11 +3,12 @@
     color: #ffffff;
     opacity: 0.9;
     border: 0.1vw solid #FFFFFF;
-    border-radius: 40px;
-    width: 350px;
+    border-radius: 20px;
+    width: 325px;
     display: flex;
     font-weight: 600;
     cursor: pointer;
+
 }
 .card:hover{
     transform: scale(1.05);
