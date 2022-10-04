@@ -1,24 +1,21 @@
 import React from 'react';
 import './App.css';
 import NavBarComponent from "./components/navBar/navbar";
-import CardGrid from "./components/cardGrid/cardGrid";
+import {Route, Routes} from "react-router-dom";
+import Home from "./pages/Home";
+import Lab from "./pages/Lab";
 
 function App() {
-    return (<React.Fragment>
+    return (
+        <React.Fragment>
             <div>
                 <NavBarComponent/>
             </div>
-            <div>
-                <div className="background_image01">
-                    <div className="main_heading_section">
-                        <h1>Explore & Enjoy <br/>
-                            Dapps</h1>
-                    </div>
-                    <div className="grid_section">
-                        <CardGrid/>
-                    </div>
-                </div>
-            </div>
+            <Routes>
+                <Route path='/' element={<Home/>}/>
+                <Route path='/lab' element={<Lab/>}/>
+            </Routes>
         </React.Fragment>);
 }
+
 export default App;

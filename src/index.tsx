@@ -5,12 +5,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {ServiceContainer} from 'react-service-locator';
+import {BrowserRouter} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
 ReactDOM.render(
     <ServiceContainer>
-        <App/>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
     </ServiceContainer>
 
     , document.getElementById('root'));
