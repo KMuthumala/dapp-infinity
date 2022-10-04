@@ -1,6 +1,12 @@
 .grid_columns{
     justify-content:center;
     display : flex;
-    padding: 10px 50px;
-
+    padding: 10px;
+}
+.grid_rows{
+    width :100%;
+}
+.grid_section .container{
+    padding-left: 0;
+    padding-right: 0;
 }

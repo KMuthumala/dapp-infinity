@@ -1,10 +1,10 @@
-.grid_section .single_card{
+.grid_columns .single_card{
     background-color: rgba(0,0,0,0.4);
     color: #ffffff;
     opacity: 0.9;
     border: 0.1vw solid #FFFFFF;
     border-radius: 40px;
-    width: 325px;
+    width: 350px;
     display: flex;
     font-weight: 600;
     cursor: pointer;
