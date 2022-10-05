@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import SingleCard from "../card/singleCard";
+import SingleCard from "../single-card/singleCard";
 import "./cardgrid.css";
 
 function CardGrid() {

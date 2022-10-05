@@ -1,11 +1,12 @@
-import CardGrid from "../components/card-grid/cardGrid";
+import BoxGrid from "../components/box-grid/boxgrid";
 
 function Lab() {
     return (
         <div>
-            <div className="background_image01">
-                <div className="grid_section">
-                    <CardGrid/>
+            <div >
+                <div >
+                    <BoxGrid/>
+
                 </div>
             </div>
         </div>

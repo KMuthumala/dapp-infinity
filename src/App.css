@@ -1,3 +1,4 @@
+.parent{}
 .background_image01 {
     background-image: url('./images/backgroundImage_01.jpeg');
     background-position: top;
@@ -21,8 +22,9 @@
 .main_heading_section h1 {
     font-size: 60px;
 }
-.grid_section {
-    padding-top: 30px;
+.card_grid_section {
+    padding-top: 20px;
     position: relative;
 }
+
 
