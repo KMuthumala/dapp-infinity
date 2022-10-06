@@ -1,12 +1,11 @@
-import BoxGrid from "../components/box-grid/boxgrid";
+import Footer from "../components/footer/footer";
 
 function Lab() {
     return (
         <div>
             <div >
                 <div >
-                    <BoxGrid/>
-
+                    <Footer/>
                 </div>
             </div>
         </div>

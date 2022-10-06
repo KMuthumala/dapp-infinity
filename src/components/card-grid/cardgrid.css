@@ -6,7 +6,8 @@
 .grid_rows{
     width :100%;
 }
-.grid_columns .container{
+.card_grid_container{
+    width: 100%;
     padding-left: 0;
     padding-right: 0;
 }

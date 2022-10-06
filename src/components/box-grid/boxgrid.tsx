@@ -7,7 +7,6 @@ import "./boxgrid.css"
 
 function BoxGrid() {
     return (
-
             <Container className={"wrapper"}>
                 <Row xs={3} sm={3} md={5} lg={6}>
                     <Col><SingleBox/></Col>

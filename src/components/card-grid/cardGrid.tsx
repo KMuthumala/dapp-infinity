@@ -6,7 +6,7 @@ import "./cardgrid.css";
 
 function CardGrid() {
     return (
-        <Container className="container" >
+        <Container className="card_grid_container" >
             <Row xs={1} sm={1} md={2}  >
                 <Col className="grid_columns"><SingleCard/></Col>
                 <Col className="grid_columns"><SingleCard/></Col>

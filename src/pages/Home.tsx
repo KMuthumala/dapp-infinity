@@ -2,6 +2,7 @@ import CardGrid from "../components/card-grid/cardGrid";
 import NavBarComponent from "../components/navbar/navbar";
 import React from "react";
 import BoxGrid from "../components/box-grid/boxgrid";
+import Footer from "../components/footer/footer";
 
 function Home() {
     return (
@@ -20,7 +21,9 @@ function Home() {
                 <div className="box_grid_section">
                     <BoxGrid/>
                 </div>
-
+                <div>
+                    <Footer/>
+                </div>
             </div>
         </div>
 
