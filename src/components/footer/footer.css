@@ -1,5 +1,6 @@
 .footer_container{
-    background: linear-gradient(to right, rgba(12, 46, 87, 0.6), rgba(0, 9, 60, 0.8));
+    /*background: linear-gradient(to right, rgba(12, 46, 87, 0.6), rgba(0, 9, 60, 0.8));*/
+    background: rgba(4, 40, 96, 0.8);
     text-align: center;
     position: relative;
     bottom: 0;

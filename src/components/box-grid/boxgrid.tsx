@@ -11,7 +11,7 @@ function BoxGrid() {
         <Container className={"wrapper"}>
             <Row xs={3} sm={3} md={5} lg={6}>
                 {tempBoxData.map((details) => {
-                        return <Col><SingleBox image={details.image} title={details.title}/></Col>
+                        return <Col key={details.title}><SingleBox  image={details.image} title={details.title}/></Col>
                     }
                 )}
             </Row>
