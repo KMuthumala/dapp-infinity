@@ -1,3 +1,4 @@
+import React from "react";
 
 export interface SingleBoxDetails {
     title:string;
@@ -6,6 +7,6 @@ export interface SingleBoxDetails {
 
 export interface SingleCardDetails {
     title:string;
-    image:string;
+    image:React.ReactNode;
     description:string;
 }

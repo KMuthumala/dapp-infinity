@@ -3,6 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SingleCard from "../single-card/singleCard";
 import "./cardgrid.css";
+import {MdApps,MdGeneratingTokens,MdPayment} from "react-icons/md";
+import {GiGamepad,GiMining} from "react-icons/gi";
+
 
 function CardGrid() {
     return (
@@ -11,13 +14,13 @@ function CardGrid() {
                 <Col className="grid_columns">
                     <SingleCard
                         title={"Dapps"}
-                        image={""}
+                        image={<MdApps size={"5em"}/>}
                         description={"Explore all decentralized applications in one place...."}/>
                 </Col>
                 <Col className="grid_columns">
                     <SingleCard
                         title={"NFTs"}
-                        image={""}
+                        image={<MdGeneratingTokens size={"5em"}/>}
                         description={"Explore world's trending NFT collections....."}/>
                 </Col>
             </Row>
@@ -25,7 +28,7 @@ function CardGrid() {
                 <Col className="grid_columns">
                     <SingleCard
                         title={"Cryto Games"}
-                        image={""}
+                        image={<GiGamepad size={"5em"}/>}
                         description={"Earn crypto.....Play Games....."}/>
                 </Col>
             </Row>
@@ -33,13 +36,13 @@ function CardGrid() {
                 <Col className="grid_columns">
                     <SingleCard
                         title={"Mining World"}
-                        image={""}
+                        image={<GiMining size={"5em"}/>}
                         description={"Passively earn crypto sharing with your resources...."}/>
                 </Col>
                 <Col className="grid_columns">
                     <SingleCard
                         title={"Pay with Crypto"}
-                        image={""}
+                        image={<MdPayment size={"5em"}/>}
                         description={"All cryptocurrency payments options in one place..."}/>
                 </Col>
             </Row>

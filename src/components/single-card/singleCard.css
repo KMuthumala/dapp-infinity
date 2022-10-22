@@ -1,17 +1,25 @@
 .grid_columns .single_card{
-    background-color: rgba(255, 253, 253, 0.05);
+    background-color: rgba(255, 253, 253, 0.09);
     color: #ffffff;
     opacity: 0.9;
     /*border: 0.1vw solid #FFFFFF;*/
     border-radius: 20px;
-    height: 130px;
-    width: 325px;
+    height: auto;
+    width: auto;
     display: flex;
     font-weight: 600;
     cursor: pointer;
+
+
+
 }
-.grid_columns .single_card .title {
+.grid_columns .card_title {
     color: #f2a900;
+}
+.grid_columns .card_icon {
+    position: relative;
+    justify-content: center;
+
 }
 .single_card:hover{
     transform: scale(1.05);
