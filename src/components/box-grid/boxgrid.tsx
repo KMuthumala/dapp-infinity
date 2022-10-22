@@ -9,9 +9,9 @@ import "./boxgrid.css"
 function BoxGrid() {
     return (
         <Container className={"wrapper"}>
-            <Row xs={3} sm={3} md={5} lg={6}>
+            <Row xs={2} sm={2} md={4} lg={5}>
                 {tempBoxData.map((details) => {
-                        return <Col key={details.title}><SingleBox  image={details.image} title={details.title}/></Col>
+                        return <Col key={details.title}><SingleBox  image={details.image} title={details.title} link={details.link}/></Col>
                     }
                 )}
             </Row>

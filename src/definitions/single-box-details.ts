@@ -3,6 +3,7 @@ import React from "react";
 export interface SingleBoxDetails {
     title:string;
     image:string;
+    link:string;
 }
 
 export interface SingleCardDetails {
