@@ -23,7 +23,7 @@ function NavBarComponent() {
                     <Nav className="ms-5 tags_styles" >
                         {navbarTags.map((e)=>(<Nav.Link key={e.tag} className="me-4" href={e.to}>{e.tag}</Nav.Link> ))}
                     </Nav>
-                    <Button className="button-secondary">Connect Wallet</Button>
+                    {/*<Button className="button-secondary">Connect Wallet</Button>*/}
                 </Navbar.Collapse>
             </Container>
         </Navbar>

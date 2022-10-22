@@ -7,7 +7,7 @@ function SingleCard({title,image,description}:SingleCardDetails) {
         <div>
            <Card border="dark"   className="single_card">
                 <Card.Body>
-                    <Card.Title>{title}</Card.Title>
+                    <Card.Title className={"title"}>{title}</Card.Title>
                     <Card.Text>
                         {description}
                     </Card.Text>

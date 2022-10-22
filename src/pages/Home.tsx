@@ -10,7 +10,7 @@ function Home() {
     return (
         <div className={"parent"}>
             <ParticlesAnimation/>
-            <div className="background_image01">
+            <div>
                 <div>
                     <NavBarComponent/>
                 </div>

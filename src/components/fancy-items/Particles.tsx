@@ -27,7 +27,7 @@ function ParticlesAnimation() {
                 options={{
                     background: {
                         color: {
-                            value: "#0d47a1",
+                            value: "#000000",
                         },
                     },
                     fpsLimit: 60,
@@ -42,16 +42,16 @@ function ParticlesAnimation() {
                             },
                             repulse: {
                                 distance: 200,
-                                duration: 0.4,
+                                duration: 0.2,
                             },
                         },
                     },
                     particles: {
                         color: {
-                            value: "#ffffff",
+                            value: "#f2a900",
                         },
                         links: {
-                            color: "#ffffff",
+                            color: "#f2a900",
                             distance: 150,
                             enable: true,
                             opacity: 0.5,
@@ -84,7 +84,7 @@ function ParticlesAnimation() {
                             type: "circle",
                         },
                         size: {
-                            value: {min: 1, max: 5},
+                            value: {min: 1, max: 3},
                         },
                     },
                     detectRetina: true,

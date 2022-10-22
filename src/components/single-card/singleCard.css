@@ -1,13 +1,17 @@
 .grid_columns .single_card{
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(255, 253, 253, 0.05);
     color: #ffffff;
     opacity: 0.9;
-    border: 0.1vw solid #FFFFFF;
+    /*border: 0.1vw solid #FFFFFF;*/
     border-radius: 20px;
+    height: 130px;
     width: 325px;
     display: flex;
     font-weight: 600;
     cursor: pointer;
+}
+.grid_columns .single_card .title {
+    color: #f2a900;
 }
 .single_card:hover{
     transform: scale(1.05);
