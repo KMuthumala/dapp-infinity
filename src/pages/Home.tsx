@@ -3,10 +3,13 @@ import NavBarComponent from "../components/navbar/navbar";
 import React from "react";
 import BoxGrid from "../components/box-grid/boxgrid";
 import Footer from "../components/footer/footer";
+import ParticlesAnimation from "../components/fancy-items/Particles";
+
 
 function Home() {
     return (
         <div className={"parent"}>
+            <ParticlesAnimation/>
             <div className="background_image01">
                 <div>
                     <NavBarComponent/>
@@ -29,4 +32,5 @@ function Home() {
 
     );
 }
+
 export default Home;
