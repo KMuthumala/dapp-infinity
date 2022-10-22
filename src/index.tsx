@@ -9,11 +9,9 @@ import {BrowserRouter} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.render(
-    <ServiceContainer>
-        <BrowserRouter>
-            <App/>
-        </BrowserRouter>
-    </ServiceContainer>
+    <BrowserRouter>
+        <App/>
+    </BrowserRouter>
 
     , document.getElementById('root'));
 
