@@ -7,33 +7,50 @@ function Footer() {
         <div className={"footer_container"}>
             <Row xs={2} sm={2} md={2} lg={4} className={"footer_row"}>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Title</h5></div>
+                    <div className={"footer_title"}><h5>Company</h5></div>
                     <div className={"footer_content"}>
-                            <div>content</div>
-                            <div>content</div>
-                            <div>content</div>
-                            <div>content</div>
+                            <div>About us</div>
+                            <div>Press</div>
+                            <div>Disclaimer</div>
+                            <div>Privacy policy</div>
+                            <div>Terms and conditions</div>
+                            <div>Careers</div>
                     </div>
                 </Col>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Title</h5></div>
+                    <div className={"footer_title"}><h5>Products</h5></div>
                     <div className={"footer_content"}>
-                            <div>content</div>
-                            <div>content</div>
-                            <div>content</div>
-                            <div>content</div>
+                            <div>Dapp Explorer</div>
+                            <div>Trending NFT Explorer</div>
+                            <div>AirDrops</div>
+                            <div>Crypto Games</div>
                     </div>
                 </Col>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Title</h5></div>
+                    <div className={"footer_title"}><h5>Resources</h5></div>
                     <div className={"footer_content"}>
-                            <div>content</div>
-                            <div>content</div>
-                            <div>content</div>
-                            <div>content</div>
+                            <div>Blog</div>
+                            <div>Industry Overview</div>
+                            <div>Reports</div>
+                            <div>FAQ</div>
+                            <div>Brand Assets</div>
+                    </div>
+                </Col>
+                <Col className={"footer_column"}>
+                    <div className={"footer_title"}><h5>Contact Us</h5></div>
+                    <div className={"footer_content"}>
+                        <div>Email</div>
+                        <div>Telegram</div>
+                        <div>Twitter</div>
+                        <div>TikTok</div>
                     </div>
                 </Col>
 
+            </Row>
+            <Row xs={2} sm={2} md={2} lg={4} className={"footer_row"}>
+                <Col className={"footer_column"}>
+                © 2022 Dapp Infinity
+                </Col>
             </Row>
         </div>
 
