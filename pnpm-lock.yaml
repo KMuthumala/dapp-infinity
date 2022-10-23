@@ -27,6 +27,7 @@ specifiers:
   react-scripts: 5.0.1
   react-service-locator: ^1.4.3
   react-tsparticles: ^2.3.3
+  react-use-websocket: ^4.2.0
   reflect-metadata: ^0.1.13
   tsparticles: ^2.3.4
   tsparticles-engine: ^2.3.3
@@ -59,6 +60,7 @@ dependencies:
   react-scripts: 5.0.1_oe3ol62eqh6iphsltbumhvug5m
   react-service-locator: 1.4.3_jum4dgtzis66vm2ourjqbbrmfq
   react-tsparticles: 2.3.3_react@18.2.0
+  react-use-websocket: 4.2.0_biqbaboplfbrettd7655fr4n2y
   reflect-metadata: 0.1.13
   tsparticles: 2.3.4
   tsparticles-engine: 2.3.3
@@ -8461,6 +8463,16 @@ packages:
       tsparticles-engine: 2.3.3
     dev: false
 
+  /react-use-websocket/4.2.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-ZovaTlc/tWX6a590fi3kMWImhyoWj46BWJWvO5oucZJzRnVVhYtes2D9g+5MKXjSdR7Es3456hB89v4/1pcBKg==}
+    peerDependencies:
+      react: '>= 18.0.0'
+      react-dom: '>= 18.0.0'
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /react/18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
     engines: {node: '>=0.10.0'}
@@ -10096,7 +10108,7 @@ packages:
       spdy: 4.0.2
       webpack: 5.74.0
       webpack-dev-middleware: 5.3.3_webpack@5.74.0
-      ws: 8.8.1
+      ws: 8.9.0
     transitivePeerDependencies:
       - bufferutil
       - debug
@@ -10448,8 +10460,8 @@ packages:
         optional: true
     dev: false
 
-  /ws/8.8.1:
-    resolution: {integrity: sha512-bGy2JzvzkPowEJV++hF07hAD6niYSr0JzBNo/J29WsB57A2r7Wlc1UFcTR9IzrPvuNVO4B8LGqF8qcpsVOhJCA==}
+  /ws/8.9.0:
+    resolution: {integrity: sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
