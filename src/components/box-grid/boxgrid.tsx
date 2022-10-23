@@ -4,7 +4,6 @@ import Col from 'react-bootstrap/Col';
 import "./boxgrid.css";
 import SingleBox from "../single-box/singleBox";
 import {tempBoxData} from "../../data/temp-nft-box-data";
-import "./boxgrid.css"
 
 function BoxGrid() {
     return (

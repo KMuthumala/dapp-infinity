@@ -1,0 +1,20 @@
+.parent .horizontal_Scroll_bar_wrapper{
+    max-height:120px;
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    overflow-x: auto;
+    position: relative;
+    overscroll-behavior-x: contain;
+}
+.parent .horizontal_Scroll_bar_wrapper::-webkit-scrollbar{
+    /*width: 0;*/
+}
+.parent .horizontal_Scroll_bar_wrapper .horizontal_Scroll_bar_item{
+    min-width: 110px;
+    height: 110px;
+    text-align: center;
+    background-color: #ddd;
+    margin-right: 2px;
+    color: #000000;
+}
