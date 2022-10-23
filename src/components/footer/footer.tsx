@@ -7,7 +7,7 @@ function Footer() {
         <div className={"footer_container"}>
             <Row xs={2} sm={2} md={2} lg={4} className={"footer_row"}>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Company</h5></div>
+                    <div className={"footer_title"}><h4>Company</h4></div>
                     <div className={"footer_content"}>
                             <div>About us</div>
                             <div>Press</div>
@@ -18,7 +18,7 @@ function Footer() {
                     </div>
                 </Col>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Products</h5></div>
+                    <div className={"footer_title"}><h4>Products</h4></div>
                     <div className={"footer_content"}>
                             <div>Dapp Explorer</div>
                             <div>Trending NFT Explorer</div>
@@ -27,7 +27,7 @@ function Footer() {
                     </div>
                 </Col>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Resources</h5></div>
+                    <div className={"footer_title"}><h4>Resources</h4></div>
                     <div className={"footer_content"}>
                             <div>Blog</div>
                             <div>Industry Overview</div>
@@ -37,7 +37,7 @@ function Footer() {
                     </div>
                 </Col>
                 <Col className={"footer_column"}>
-                    <div className={"footer_title"}><h5>Contact Us</h5></div>
+                    <div className={"footer_title"}><h4>Contact Us</h4></div>
                     <div className={"footer_content"}>
                         <div>Email</div>
                         <div>Telegram</div>

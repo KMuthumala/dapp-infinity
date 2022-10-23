@@ -11,3 +11,9 @@ export interface SingleCardDetails {
     image:React.ReactNode;
     description:string;
 }
+export interface SingleDappCardDetails{
+    title:string;
+    image:string;
+    description:string;
+    link:string;
+}

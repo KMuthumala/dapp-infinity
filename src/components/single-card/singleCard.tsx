@@ -11,7 +11,7 @@ function SingleCard({title, image, description}: SingleCardDetails) {
                 <Card.Body>
                     <Row >
                         <Col xs={3} className={"card_icon"}>{image}</Col>
-                        <Col xs={9}>
+                        <Col xs={9} className={"card_content"}>
                         <Card.Title className={"card_title"}>{title}</Card.Title>
                         <Card.Text>{description}</Card.Text>
                         </Col>

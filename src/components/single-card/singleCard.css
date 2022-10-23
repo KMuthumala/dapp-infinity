@@ -37,5 +37,12 @@
     .grid_columns .single_card{
         width: 350px;
     }
+}@media  screen and (max-width:300px) and (min-width:150px){
+    .grid_columns .single_card{
+        width: 100%;
+    }.grid_columns .card_content{
+        padding-left: 30px;
+    }
+
 }
 
