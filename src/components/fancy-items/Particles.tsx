@@ -7,7 +7,7 @@ import {loadFull} from "tsparticles";
 function ParticlesAnimation() {
 
     const particlesInit = useCallback(async (engine: Engine) => {
-        console.log(engine);
+
 
         // you can initialize the tsParticles instance (engine) here, adding custom shapes or presets
         // this loads the tsparticles package bundle, it's the easiest method for getting everything ready
@@ -15,9 +15,7 @@ function ParticlesAnimation() {
         await loadFull(engine);
     }, []);
 
-    const particlesLoaded = useCallback(async (container: Container | undefined) => {
-        await console.log(container);
-    }, []);
+    const particlesLoaded = useCallback(async (container: Container | undefined) => {}, []);
     return (
         <div>
             <Particles

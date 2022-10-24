@@ -6,6 +6,10 @@
     min-height: 160px;
 
 }
+.parent .single_dapp_box_icon{
+    margin: auto;
+;
+}
 .parent .single_dapp_box_image{
     position: relative;
     width: 70px;

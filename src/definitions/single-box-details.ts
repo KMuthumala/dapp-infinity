@@ -16,4 +16,12 @@ export interface SingleDappCardDetails{
     image:string;
     description:string;
     link:string;
+    category:string;
+}
+export interface DappCategory{
+    category:string;
+}
+
+export interface HorizontalScrollBarInterface{
+    handleClick:Function;
 }

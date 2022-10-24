@@ -1,13 +1,25 @@
-.dapp_category_card{
-    width: auto;
-    min-width: 110px;
-    min-height: 40px;
+.parent .dapp_category_card{
+    min-width: 200px;
+
     background:#042860 ;
     border-radius: 40px;
-    text-align: center;
     margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+
 }
-.dapp_category_card_logo{}
-.dapp_category_card_label{
+.dapp_category_card_logo{
+}
+.parent .dapp_category_card .dapp_category_card_label{
     color: #FFFFFF;
+    margin: auto;
+    height: 40px;
+    padding: 5px 0 5px 0 ;
+}
+
+.dapp_category_card:hover{
+    transform: scale(1.05);
+    transition-duration: 0.35s;
+    transition-delay: 0.1s;
 }

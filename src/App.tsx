@@ -3,6 +3,7 @@ import './App.css';
 import {Route, Routes} from "react-router-dom";
 import Home from "./pages/Home";
 import Lab from "./pages/Lab";
+import Dapps from "./pages/Dapps";
 
 function App() {
     return (
@@ -10,6 +11,7 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home/>}/>
                 <Route path='/lab' element={<Lab/>}/>
+                <Route path='/dapps' element={<Dapps/>}/>
             </Routes>
         </React.Fragment>);
 }
