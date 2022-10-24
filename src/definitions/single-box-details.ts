@@ -11,3 +11,10 @@ export interface SingleCardDetails {
     image:React.ReactNode;
     description:string;
 }
+
+export interface SmallPriceCardDetails {
+    title:string;
+    description:string;
+    image:string;
+    price:number;
+}

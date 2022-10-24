@@ -4,6 +4,7 @@ import React from "react";
 import BoxGrid from "../components/box-grid/boxgrid";
 import Footer from "../components/footer/footer";
 import ParticlesAnimation from "../components/fancy-items/Particles";
+import PriceLine from "../components/price-line/price-line";
 
 
 function Home() {
@@ -14,6 +15,7 @@ function Home() {
                 <div>
                     <NavBarComponent/>
                 </div>
+                <PriceLine/>
                 <div className="main_heading_section">
                     <h1>Explore & Enjoy <br/>
                         Dapps</h1>
