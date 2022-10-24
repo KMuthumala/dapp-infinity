@@ -1,11 +1,11 @@
-.parent .price-card-small{
+.parent .price-card-small {
     margin-bottom: 10px;
     width: 100%;
-    background-color: rgba(255, 253, 253, 0.3);
+    background-color: rgba(255, 253, 253, 0.1);
     color: #000000;
     opacity: 0.9;
 }
 
-.parent .crypto-icon{
+.parent .crypto-icon {
     margin: auto;
 }
