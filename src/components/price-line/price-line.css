@@ -1,0 +1,5 @@
+.price-line {
+    width: 95%;
+    display: flex;
+    margin: 100px auto 0;
+}
