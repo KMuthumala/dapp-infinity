@@ -6,10 +6,11 @@
     position: relative;
     overscroll-behavior-x: contain;
     width: 80%;
-    margin: 100px auto ;
+    margin: 100px auto 40px ;
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
     padding : 15px 15px 15px 15px;
+
 }
 .parent .horizontal_Scroll_bar_wrapper::-webkit-scrollbar{
     /*width: 0;*/

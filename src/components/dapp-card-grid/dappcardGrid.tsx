@@ -9,6 +9,7 @@ function DappCardGrid() {
 
 
     return (
+        <div>
         <Container className={"dapp_card_wrapper"}>
             <Row xs={1} sm={1} md={2} lg={3}>
                 {dappList.defiList.map((e)=>{
@@ -16,7 +17,7 @@ function DappCardGrid() {
                 })}
             </Row>
         </Container>
-
+        </div>
     );
 }
 
