@@ -8,8 +8,10 @@ import HorizontalScrollBar from "../components/horizontal-scroll-bar/horizontalS
 function Lab() {
     return (
         <div className={"parent"}>
-            <ParticlesAnimation/>
-            <HorizontalScrollBar/>
+            <div><ParticlesAnimation/></div>
+            <div><HorizontalScrollBar/></div>
+
+
             <div>
                 <div>
                     <NavBarComponent/>
