@@ -1,14 +1,19 @@
 .parent .dapp_category_card{
-    min-width: 200px;
+    display: inline-block;
+    height: auto;
+    float:left;
+    padding: 0 18px 0 18px ;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 40px;
-    margin-right: 10px;
-    margin-left: 10px;
     text-align: center;
     cursor: pointer;
+    border: 3px solid ;
+    margin: 0 10px 10px 10px;
+
 }
 .parent .active_category{
     background: rgba(242, 169, 0, 0.5);
+    border: 3px solid #f2a900;
 }
 .dapp_category_card_logo{
 }
@@ -17,6 +22,7 @@
     margin: auto;
     height: 40px;
     padding: 5px 0 5px 0 ;
+    white-space: nowrap;
 }
 
 .dapp_category_card:hover{

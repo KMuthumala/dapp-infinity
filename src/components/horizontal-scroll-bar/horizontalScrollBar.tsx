@@ -6,7 +6,7 @@ import {DappCategoryAndOperations} from "../../definitions/single-box-details";
 function HorizontalScrollBar({handleClick,selectedCategory}:DappCategoryAndOperations) {
     const dappCategoryList:string[]=["All",...categoryList.dappCategories];
     return (
-        <div className={"horizontal_Scroll_bar_wrapper"}>
+        <div className={"dapp_category_section_wrapper"}>
                 {dappCategoryList.map((e)=>{
                     return <div key={e} ><DappCategoryCard category={e} onClick={handleClick} selectedCategory={selectedCategory}/></div>
                 })}
