@@ -9,7 +9,7 @@ import HorizontalScrollBar from "../components/horizontal-scroll-bar/horizontalS
 function Dapp() {
     const [selectedCategory, setSelectedCategory] = useState<string>("All");
     const handleClick = (selected: string) => {
-        if (selected != selectedCategory) setSelectedCategory(selected);
+        if (selected !== selectedCategory) setSelectedCategory(selected);
     };
 
 

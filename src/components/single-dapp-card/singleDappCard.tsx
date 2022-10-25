@@ -4,15 +4,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {SingleDappCardDetails} from "../../definitions/single-box-details";
 
-function SingleDappCard({title,image,link,description,category}:SingleDappCardDetails) {
+function SingleDappCard({title,image,link,description}:SingleDappCardDetails) {
     function checkDescription(description:string):string{
        if(description.length>=50){
             return description.substring(0,40)+"...SEE MORE...";
         }return description;
     }
+    function raiseInvoiceClicked() {
+        window.open(link, "_blank") //to open new page
+    }
+
     return (
         <div>
-            <Card className="dapp_single_card">
+            <Card className="dapp_single_card" onClick={()=>raiseInvoiceClicked()}>
                 <Card.Body>
                     <Row >
                         <Col xs={3} className={"single_dapp_box_icon"}><Card.Img   className="single_dapp_box_image" src={image}/></Col>
