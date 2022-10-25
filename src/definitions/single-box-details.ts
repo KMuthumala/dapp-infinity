@@ -18,13 +18,13 @@ export interface SingleDappCardDetails{
     link:string;
     category:string;
 }
-export interface DappCategory{
-    category:string;
+export interface DappCategoryAndOperations{
+    category?:string;
+    selectedCategory?:string;
+    onClick?:Function;
+    handleClick?:Function;
 }
 
-export interface HorizontalScrollBarInterface{
-    handleClick:Function;
-}
 export interface SmallPriceCardDetails {
     title: string;
     description: string;

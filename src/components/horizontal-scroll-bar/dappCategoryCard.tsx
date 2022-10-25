@@ -1,15 +1,16 @@
 import "./dappCategoryCard.css";
-import {DappCategory} from "../../definitions/single-box-details";
+import {DappCategoryAndOperations} from "../../definitions/single-box-details";
 
-function DappCategoryCard({category}:DappCategory) {
+function DappCategoryCard({category,onClick,selectedCategory}:DappCategoryAndOperations) {
 
     return (
-        <div className={"dapp_category_card"}>
+        <div onClick={()=>{ // @ts-ignore
+            onClick(category)}} className={"dapp_category_card"+((category===selectedCategory)? " active_category":"")} >
             <div className={"dapp_category_card_logo"}></div>
             <div className={"dapp_category_card_label"}>{category}</div>
         </div>
     );
 }
-
-
 export default DappCategoryCard;
+
+

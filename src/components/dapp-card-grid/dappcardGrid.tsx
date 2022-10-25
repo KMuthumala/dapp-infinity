@@ -4,10 +4,9 @@ import Col from 'react-bootstrap/Col';
 import SingleDappCard from "../single-dapp-card/singleDappCard";
 import "./dappCardGrid.css";
 import dappList from "../../data/dapps.json" ;
-import {DappCategory} from "../../definitions/single-box-details";
+import {DappCategoryAndOperations} from "../../definitions/single-box-details";
 
-
-function DappCardGrid({category}:DappCategory) {
+function DappCardGrid({category}:DappCategoryAndOperations) {
     return (
         <div>
         <Container className={"dapp_card_wrapper"}>
