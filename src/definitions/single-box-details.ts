@@ -10,6 +10,7 @@ export interface SingleCardDetails {
     title: string;
     image: React.ReactNode;
     description: string;
+    to:string;
 }
 export interface SingleDappCardDetails{
     title:string;

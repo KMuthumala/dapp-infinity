@@ -3,8 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import SingleCard from "../single-card/singleCard";
 import "./cardgrid.css";
-import {MdApps,MdGeneratingTokens,MdPayment} from "react-icons/md";
-import {GiGamepad,GiMining} from "react-icons/gi";
+import {MdApps, MdGeneratingTokens, MdPayment} from "react-icons/md";
+import {GiGamepad, GiMining} from "react-icons/gi";
+import {Link} from "react-router-dom";
 
 
 function CardGrid() {
@@ -15,13 +16,15 @@ function CardGrid() {
                     <SingleCard
                         title={"Dapps"}
                         image={<MdApps size={"5em"}/>}
-                        description={"Explore all decentralized applications in one place...."}/>
+                        description={"Explore all decentralized applications in one place...."}
+                        to={"dapps"}/>
                 </Col>
                 <Col className="grid_columns">
                     <SingleCard
                         title={"NFTs"}
                         image={<MdGeneratingTokens size={"5em"}/>}
-                        description={"Explore world's trending NFT collections....."}/>
+                        description={"Explore world's trending NFT collections....."}
+                        to={""}/>
                 </Col>
             </Row>
             <Row xs={1} sm={1} md={1}>
@@ -29,7 +32,8 @@ function CardGrid() {
                     <SingleCard
                         title={"Cryto Games"}
                         image={<GiGamepad size={"5em"}/>}
-                        description={"Earn crypto.....Play Games....."}/>
+                        description={"Earn crypto.....Play Games....."}
+                        to={""}/>
                 </Col>
             </Row>
             <Row xs={1} sm={1} md={2}>
@@ -37,13 +41,15 @@ function CardGrid() {
                     <SingleCard
                         title={"Mining World"}
                         image={<GiMining size={"5em"}/>}
-                        description={"Passively earn crypto sharing with your resources...."}/>
+                        description={"Passively earn crypto sharing with your resources...."}
+                        to={""}/>
                 </Col>
                 <Col className="grid_columns">
                     <SingleCard
                         title={"Pay with Crypto"}
                         image={<MdPayment size={"5em"}/>}
-                        description={"All cryptocurrency payments options in one place..."}/>
+                        description={"All cryptocurrency payments options in one place..."}
+                        to={""}/>
                 </Col>
             </Row>
         </Container>

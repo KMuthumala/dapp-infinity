@@ -6,10 +6,10 @@ import {Button} from "react-bootstrap";
 
 function NavBarComponent() {
     const navbarTags=[
-        {tag:"Defi",to:"#defi"},
-        {tag:"NFTs",to:"#nfts"},
-        {tag:"AirDrops",to:"#airdrops"},
-        {tag:"Blog",to:"#blog"},
+        {tag:"Defi",to:"dapps"},
+        {tag:"NFTs",to:""},
+        {tag:"AirDrops",to:""},
+        {tag:"Blog",to:""},
     ];
 
     return (

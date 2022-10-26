@@ -8,6 +8,7 @@
     display: flex;
     font-weight: 600;
     cursor: pointer;
+    text-decoration: none;
 }
 .grid_columns .card_title {
     color: #f2a900;
