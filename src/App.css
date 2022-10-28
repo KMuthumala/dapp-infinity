@@ -1,4 +1,7 @@
-.parent{}
+.parent{
+    position: absolute;
+    background-color:black;
+}
 .main_heading_section {
     position: relative;
     padding-top: 95px;

@@ -12,11 +12,11 @@ function PriceCardSmall({title, image, description, lastPrice, openPrice}: Small
             <Card className={"price-card-small"}>
                 <Card.Body>
                     <Row>
-                        <Col xs={5} className={"crypto-icon"}>
+                        <Col xs={4} className={"crypto-icon"}>
                             <img src={require(`../../images/crypto-icons/${image}.png`)} width={"50"} height={"50"}
                                  alt={""}/>
                         </Col>
-                        <Col xs={7}>
+                        <Col xs={8}>
                             <Card.Title style={{color: "white"}}>{title}</Card.Title>
                             <Card.Text style={{
                                 color: lastPrice > openPrice ? "green" : "red",
