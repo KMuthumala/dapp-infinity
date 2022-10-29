@@ -1,5 +1,7 @@
 .price-line {
+    position: relative;
     width: 95%;
     display: flex;
-    margin: 100px auto 0;
+    margin: 56px auto 0;
+    padding-top: 40px;
 }

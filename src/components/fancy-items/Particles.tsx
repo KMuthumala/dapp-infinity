@@ -2,6 +2,7 @@ import {useCallback} from "react";
 import type {Container, Engine} from "tsparticles-engine";
 import Particles from "react-tsparticles";
 import {loadFull} from "tsparticles";
+import "./particles.css";
 
 
 function ParticlesAnimation() {
@@ -17,16 +18,19 @@ function ParticlesAnimation() {
 
     const particlesLoaded = useCallback(async (container: Container | undefined) => {}, []);
     return (
-        <div>
+        <div >
             <Particles
+                style={{filter:"blur(2px)"}}
+                className={"particles"}
                 id={"tsparticles"}
                 init={particlesInit}
                 loaded={particlesLoaded}
                 options={{
                     background: {
                         color: {
-                            value: "#000000",
+                            value: "rgba(0,0,0)",
                         },
+
                     },
                     fpsLimit: 60,
                     interactivity: {

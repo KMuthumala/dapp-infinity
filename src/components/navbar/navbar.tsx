@@ -13,7 +13,7 @@ function NavBarComponent() {
     ];
 
     return (
-        <Navbar fixed="top" collapseOnSelect expand="lg"  variant="dark" className="navbar_settings">
+        <Navbar fixed={"top"} collapseOnSelect expand="lg"  variant="dark" className="navbar_settings">
             <Container >
                 <Navbar.Brand   href="/">Dapp Infinity</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />

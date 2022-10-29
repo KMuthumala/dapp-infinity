@@ -1,5 +1,6 @@
 .parent{
-    background-color:black;
+    background-color: #000000;
+
 }
 .main_heading_section {
     position: relative;
@@ -8,7 +9,6 @@
     font-weight: 600;
     line-height: 80px;
     display: flex;
-    align-items: center;
     text-align: center;
     justify-content: center;
     color: #FFFFFF;

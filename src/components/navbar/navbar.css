@@ -1,8 +1,6 @@
 .navbar_settings{
     background: #f2a900;
     left: 0;
-    top: 0;
-    border-radius: 0;
     display: flex;
 }
 .tags_styles{

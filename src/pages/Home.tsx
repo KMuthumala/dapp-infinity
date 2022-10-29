@@ -11,6 +11,7 @@ function Home() {
     return (
         <div className={"parent"}>
             <ParticlesAnimation/>
+
             <div>
                 <div>
                     <NavBarComponent/>
