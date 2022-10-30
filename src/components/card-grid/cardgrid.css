@@ -1,0 +1,17 @@
+.grid_columns{
+    justify-content:center;
+    display : flex;
+    padding: 20px;
+}
+.parent .grid_rows{
+    width :100%;
+}
+.card_grid_container{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+.div_section{
+    backdrop-filter: blur(4px);
+    /*background: rgba(136, 136, 136, 0.1);*/
+}

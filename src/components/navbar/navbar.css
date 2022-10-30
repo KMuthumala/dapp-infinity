@@ -1,0 +1,15 @@
+.navbar_settings{
+    background: #f2a900;
+    left: 0;
+    display: flex;
+}
+.tags_styles{
+    font-style: normal;
+    font-weight: 750;
+    font-size: 18px;
+    line-height: 19px;
+    display: flex;
+    text-align: left;
+    color: #FFFFFF;
+}
+

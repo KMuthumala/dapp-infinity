@@ -1,0 +1,36 @@
+.parent .dapp_card_wrapper  {
+    position: relative;
+    width: 70%;
+    max-height: 800px;
+    height: auto;
+    margin: 0 auto 50px ;
+    background-color: rgba(255, 255, 255, 0.06);
+    padding: 30px;
+    color:#FFFFFF;
+    border-radius: 40px;
+    display:grid;
+    overflow-y:auto ;
+    backdrop-filter: blur(3px);
+}
+.parent .dapp_card_wrapper::-webkit-scrollbar{
+    display: none;
+}
+@media  screen and (max-width:1500px){
+    .parent .dapp_card_wrapper{
+        width: 85%;
+    }
+}@media  screen and (max-width:950px){
+    .parent .dapp_card_wrapper{
+        width: 85%;
+    }
+}
+@media  screen and (max-width:700px){
+    .parent .dapp_card_wrapper{
+        width: 85%;
+    }
+}
+@media  screen and (max-width:500px){
+    .parent .dapp_card_wrapper{
+        width: 95%;
+    }
+}

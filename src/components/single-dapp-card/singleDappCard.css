@@ -1,0 +1,29 @@
+.parent .dapp_single_card{
+    width: auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 15px;
+    height: auto;
+    min-height: 160px;
+
+}
+.parent .single_dapp_box_icon{
+    margin: auto;
+;
+}
+.parent .single_dapp_box_image{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50% ;
+    float: left;
+}
+.parent .single_dapp_card_content{
+    position: relative;
+    padding-left: 25px;
+}
+.parent .dapp_single_card:hover{
+    transform: scale(1.05);
+    border: 1px solid #FFFFFF;
+    transition-duration: 0.35s;
+    transition-delay: 0.1s;
+}
