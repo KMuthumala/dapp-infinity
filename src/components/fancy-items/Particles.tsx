@@ -20,7 +20,6 @@ function ParticlesAnimation() {
     return (
         <div >
             <Particles
-                style={{filter:"blur(2px)"}}
                 className={"particles"}
                 id={"tsparticles"}
                 init={particlesInit}
@@ -28,9 +27,8 @@ function ParticlesAnimation() {
                 options={{
                     background: {
                         color: {
-                            value: "rgba(0,0,0)",
+                            value: "#000000",
                         },
-
                     },
                     fpsLimit: 60,
                     interactivity: {

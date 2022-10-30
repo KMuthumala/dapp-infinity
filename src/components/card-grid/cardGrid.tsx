@@ -5,11 +5,11 @@ import SingleCard from "../single-card/singleCard";
 import "./cardgrid.css";
 import {MdApps, MdGeneratingTokens, MdPayment} from "react-icons/md";
 import {GiGamepad, GiMining} from "react-icons/gi";
-import {Link} from "react-router-dom";
 
 
 function CardGrid() {
     return (
+        <div className={"div_section"}>
         <Container className="card_grid_container">
             <Row xs={1} sm={1} md={2}>
                 <Col className="grid_columns">
@@ -30,7 +30,7 @@ function CardGrid() {
             <Row xs={1} sm={1} md={1}>
                 <Col className="grid_columns">
                     <SingleCard
-                        title={"Cryto Games"}
+                        title={"Crypto Games"}
                         image={<GiGamepad size={"5em"}/>}
                         description={"Earn crypto.....Play Games....."}
                         to={""}/>
@@ -53,6 +53,7 @@ function CardGrid() {
                 </Col>
             </Row>
         </Container>
+        </div>
     );
 }
 

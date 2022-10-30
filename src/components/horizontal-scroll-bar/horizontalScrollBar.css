@@ -8,11 +8,13 @@
         /*background: rgba(0, 0, 0);*/
         padding: 30px 30px 15px 30px;
         border-bottom: 1px solid #FFFFFF;
+        backdrop-filter: blur(4px);
     }
 }
 
 @media screen and (max-width: 1000px) {
     .parent .dapp_category_section_wrapper {
+        backdrop-filter: blur(4px);
         display: grid;
         grid-auto-flow: column;
         overflow-x: auto;
